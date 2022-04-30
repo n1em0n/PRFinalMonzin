@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\bmi-healthy-icon.png" />
+    <None Remove="Resources\female-icon.png" />
+    <None Remove="Resources\female-icon1.png" />
+    <None Remove="Resources\male-icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\bmi-healthy-icon.png" />
+    <Resource Include="Resources\female-icon1.png" />
+    <Resource Include="Resources\male-icon.png" />
+  </ItemGroup>
+
+</Project>
